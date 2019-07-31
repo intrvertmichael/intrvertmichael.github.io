@@ -7,85 +7,105 @@ body, html {
   height: 95%;
   width: 100%;
 
+}
+
+body {
+  padding: 100px;
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
+
+-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-main {
-  position: relative;
-  top: 50%;
-  transform: perspective(1px) translateY(-50%);
-  width: 35%;
-  margin: auto;
-}
-
-.menu {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  font-size: 30px;
-}
-
-.menu:hover {
-  color: red;
-  cursor: pointer;
-}
-
-.icon {
-  width: 100%;
-  display: inline-block;
-  margin: 0px;
-}
-
-h1 {
-  font-family: 'Roboto Slab', serif;
-  font-weight: normal;
-  font-size: 40px;
-  text-align: center;
-  margin: 30px 0px;
-}
-
-p {
+p{
   color: #a1a1a1;
   font-size: 15px;
   line-height: 30px;
-  text-align: justify;
+  display: block;
 }
 
-.right {
-  text-align: right;
-  margin-top: 30px;
-}
-
-.nav li {
+li {
   list-style: none;
-  font-size: 100px;
 }
 
-.nav li a{
+a{
   text-decoration: none;
-  color: white;
 }
 
-.nav li a:hover {
-  color: #bfbfbf;
+h1{
+  font-family: 'Roboto Slab', serif;
+  font-weight: normal;
 }
 
-.nav li img{
-  width: 50px;
-  margin: 0px;
-  padding: 0px;
+.hidden {
+  display: none;
 }
 
+/* NAV MENU */
 .dark {
   background: url( https://66.media.tumblr.com/74bf18256cddc43990467a10ffad025d/tumblr_nsmrqbOd841ucogbqo1_500.gif );
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
 }
-.hidden {
-  display: none;
+
+.nav-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
 }
-.wide {
-  width: 80%;
+
+.nav-btn:hover {
+  color: red;
+  cursor: pointer;
+}
+
+nav li {
+  font-size: 100px;
+  margin: 10px 0px;
+}
+
+nav li a{
+  color: white;
+}
+
+nav li a:hover {
+  color: #222222;
+}
+
+/* WELCOME SCREEN */
+.welcome {
+  transform: perspective(1px) translateY(-50%);
+  position: relative;
+  width: 35%;
+  top: 50%;
+  margin: auto;
+}
+
+.welcome h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.welcome img{
+  width: 50px;
+  margin: 0px;
+  padding: 30px 30px 0px 0px;
+}
+
+.welcome img:hover{
+  opacity: .5;
+}
+
+.welcome p {
+  text-align: justify;
+}
+
+.welcome p.right {
+  text-align: right;
+  margin-top: 30px;
 }
