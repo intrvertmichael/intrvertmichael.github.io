@@ -1,2 +1,2 @@
-# minimalmichael.github.com
+# minimalmichael.github.io
 Personal Website
