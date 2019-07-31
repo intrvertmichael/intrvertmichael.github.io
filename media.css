@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+
+body, html {
+  background: lightblue;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+
+  font-size:30px;
+}
+
+main {
+  height: 100%;
+  background:lightblue;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+.icon {
+  width: 100%;
+  }
+
+
+
+}
