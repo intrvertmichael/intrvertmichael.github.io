@@ -131,19 +131,17 @@ nav li a:hover {
 
 .projects ul li {
   padding: 20px 0px;
-  border-bottom: 1px solid var(--light-gray);
+  border-bottom: 1px dotted var(--light-gray);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .projects ul li p{
-  margin-right: 50px;
-  width: 50%;
-  display: inline-block;
 }
 
 .projects ul li img {
   width: 30px;
-  display: inline-block;
-  vertical-align: middle;
   padding: 0px 5px;
 }
 
