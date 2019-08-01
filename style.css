@@ -1,16 +1,20 @@
-*, html, body {
-  margin: 0;
-  padding: 0;
+
+
+:root {
+  --light-gray: #adadad;
+}
+
+*, window, html, body {
+  margin: 0px;
+  padding: 0px;
 }
 
 body, html {
-  height: 95%;
+  height: 100%;
   width: 100%;
-
 }
 
 body {
-  padding: 100px;
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
 
@@ -19,11 +23,8 @@ body {
 box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-p{
-  color: #a1a1a1;
-  font-size: 15px;
-  line-height: 30px;
-  display: block;
+main {
+  padding: 100px;
 }
 
 li {
@@ -63,6 +64,10 @@ h1{
   cursor: pointer;
 }
 
+nav {
+  padding: 100px;
+}
+
 nav li {
   font-size: 100px;
   margin: 10px 0px;
@@ -82,7 +87,8 @@ nav li a:hover {
   position: relative;
   width: 350px;
   top: 50%;
-  margin: auto;
+  margin: 0px auto;
+  padding: 0px;
 }
 
 .welcome h1 {
@@ -102,6 +108,9 @@ nav li a:hover {
 }
 
 .welcome p {
+  color: var(--light-gray);
+  line-height: 30px;
+  display: block;
   text-align: justify;
 }
 
@@ -111,5 +120,57 @@ nav li a:hover {
 }
 
 .logos {
+  margin: 30px 0px;
   text-align: center;
+}
+
+/* PROJECTS */
+.projects ul {
+  margin: 30px 0px;
+}
+
+.projects ul li {
+  padding: 20px 0px;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.projects ul li p{
+  margin-right: 50px;
+  width: 50%;
+  display: inline-block;
+}
+
+.projects ul li img {
+  width: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px 5px;
+}
+
+.projects ul li img:hover {
+  opacity: .5;
+}
+
+/* ABOUT */
+.about h1 {
+  margin-bottom: 50px;
+}
+.about p {
+  color: var(--light-gray);
+  margin: 20px 0px;
+
+}
+
+.about ul {
+  margin: 50px 0px;
+  padding-left: 25px;
+}
+
+.about ul p {
+  margin-left: -25px;
+}
+.about ul li{
+  list-style: initial;
+  font-size: 20px;
+  margin: 10px 0px;
 }
