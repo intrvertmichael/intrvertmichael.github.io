@@ -17,6 +17,7 @@ body, html {
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
+  line-height: 30px;
 
 -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 -moz-box-sizing: border-box;    /* Firefox, other Gecko */
@@ -70,6 +71,7 @@ nav {
 
 nav li {
   font-size: 100px;
+  line-height: 100px;
   margin: 10px 0px;
 }
 
@@ -97,19 +99,8 @@ nav li a:hover {
   margin: 30px 0px;
 }
 
-.welcome img{
-  width: 50px;
-  margin: 0px;
-  padding: 30px 15px 0px 15px;
-}
-
-.welcome img:hover{
-  opacity: .5;
-}
-
 .welcome p {
   color: var(--light-gray);
-  line-height: 30px;
   display: block;
   text-align: justify;
 }
@@ -122,6 +113,40 @@ nav li a:hover {
 .logos {
   margin: 30px 0px;
   text-align: center;
+}
+
+.logos img{
+  width: 50px;
+  margin: 0px;
+  padding: 30px 15px 0px 15px;
+}
+
+.logos img:hover{
+  opacity: .5;
+}
+
+/* ABOUT */
+.about h1 {
+  margin-bottom: 50px;
+}
+
+.about p {
+  color: var(--light-gray);
+  margin: 20px 0px;
+}
+
+.about ul {
+  margin: 50px 0px;
+  padding-left: 25px;
+}
+
+.about ul p {
+  margin-left: -25px;
+}
+
+.about ul li{
+  list-style: initial;
+  font-size: 20px;
 }
 
 /* PROJECTS */
@@ -137,9 +162,6 @@ nav li a:hover {
   align-items: center;
 }
 
-.projects ul li p{
-}
-
 .projects ul li img {
   width: 30px;
   padding: 0px 5px;
@@ -147,28 +169,4 @@ nav li a:hover {
 
 .projects ul li img:hover {
   opacity: .5;
-}
-
-/* ABOUT */
-.about h1 {
-  margin-bottom: 50px;
-}
-.about p {
-  color: var(--light-gray);
-  margin: 20px 0px;
-
-}
-
-.about ul {
-  margin: 50px 0px;
-  padding-left: 25px;
-}
-
-.about ul p {
-  margin-left: -25px;
-}
-.about ul li{
-  list-style: initial;
-  font-size: 20px;
-  margin: 10px 0px;
 }
