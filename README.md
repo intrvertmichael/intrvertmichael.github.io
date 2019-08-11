@@ -1,2 +1,3 @@
 # minimalmichael.github.io
-Personal Website
+My personal website.
+Made in React.
