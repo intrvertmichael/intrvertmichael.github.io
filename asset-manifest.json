@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b96331c.chunk.css",
-    "main.js": "/static/js/main.1cbb7ef8.chunk.js",
-    "main.js.map": "/static/js/main.1cbb7ef8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b4c216f6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b4c216f6.js.map",
-    "static/js/2.5f1c1053.chunk.js": "/static/js/2.5f1c1053.chunk.js",
-    "static/js/2.5f1c1053.chunk.js.map": "/static/js/2.5f1c1053.chunk.js.map",
+    "main.css": "/static/css/main.e63aa2ed.chunk.css",
+    "main.js": "/static/js/main.6af5ced3.chunk.js",
+    "main.js.map": "/static/js/main.6af5ced3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
+    "static/js/2.2b73e710.chunk.js": "/static/js/2.2b73e710.chunk.js",
+    "static/js/2.2b73e710.chunk.js.map": "/static/js/2.2b73e710.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ce8c2f79c485739506c584066238095c.js": "/precache-manifest.ce8c2f79c485739506c584066238095c.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.4b96331c.chunk.css.map": "/static/css/main.4b96331c.chunk.css.map",
-    "static/js/2.5f1c1053.chunk.js.LICENSE.txt": "/static/js/2.5f1c1053.chunk.js.LICENSE.txt"
+    "static/css/main.e63aa2ed.chunk.css.map": "/static/css/main.e63aa2ed.chunk.css.map",
+    "static/js/2.2b73e710.chunk.js.LICENSE.txt": "/static/js/2.2b73e710.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/collage.ff19e5ce.jpg",
+    "static/media/me.4fe6b669.jpg": "/static/media/me.4fe6b669.jpg",
+    "static/media/screenshot_memoir.7267f159.png": "/static/media/screenshot_memoir.7267f159.png",
+    "static/media/screenshot_moodCalendar.8429a522.png": "/static/media/screenshot_moodCalendar.8429a522.png",
+    "static/media/screenshot_reddit.42210d44.png": "/static/media/screenshot_reddit.42210d44.png",
+    "static/media/screenshot_twttr.59fd9eef.png": "/static/media/screenshot_twttr.59fd9eef.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b4c216f6.js",
-    "static/js/2.5f1c1053.chunk.js",
-    "static/css/main.4b96331c.chunk.css",
-    "static/js/main.1cbb7ef8.chunk.js"
+    "static/js/runtime-main.2fd7dc15.js",
+    "static/js/2.2b73e710.chunk.js",
+    "static/css/main.e63aa2ed.chunk.css",
+    "static/js/main.6af5ced3.chunk.js"
   ]
 }
