@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.51044f97.chunk.css",
-    "main.js": "/static/js/main.ca300a57.chunk.js",
-    "main.js.map": "/static/js/main.ca300a57.chunk.js.map",
+    "main.css": "/static/css/main.ea0c081b.chunk.css",
+    "main.js": "/static/js/main.7237186f.chunk.js",
+    "main.js.map": "/static/js/main.7237186f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.594ce02b.js",
     "runtime-main.js.map": "/static/js/runtime-main.594ce02b.js.map",
     "static/js/2.2a99cafe.chunk.js": "/static/js/2.2a99cafe.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.49c967d2.chunk.js": "/static/js/3.49c967d2.chunk.js",
     "static/js/3.49c967d2.chunk.js.map": "/static/js/3.49c967d2.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.51044f97.chunk.css.map": "/static/css/main.51044f97.chunk.css.map",
+    "static/css/main.ea0c081b.chunk.css.map": "/static/css/main.ea0c081b.chunk.css.map",
     "static/js/2.2a99cafe.chunk.js.LICENSE.txt": "/static/js/2.2a99cafe.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/collage.e4e18595.jpg",
     "static/media/js-world.874661cc.png": "/static/media/js-world.874661cc.png",
@@ -20,12 +20,13 @@
     "static/media/mood-calendar.9753d303.png": "/static/media/mood-calendar.9753d303.png",
     "static/media/mug.ff2d62eb.png": "/static/media/mug.ff2d62eb.png",
     "static/media/reddit.e05f43d9.png": "/static/media/reddit.e05f43d9.png",
+    "static/media/resume.e00b5128.pdf": "/static/media/resume.e00b5128.pdf",
     "static/media/twttr.2dc5a4c7.png": "/static/media/twttr.2dc5a4c7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.594ce02b.js",
     "static/js/2.2a99cafe.chunk.js",
-    "static/css/main.51044f97.chunk.css",
-    "static/js/main.ca300a57.chunk.js"
+    "static/css/main.ea0c081b.chunk.css",
+    "static/js/main.7237186f.chunk.js"
   ]
 }
