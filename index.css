@@ -28,6 +28,10 @@ a:hover {
     color: darkblue;
 }
 
+img {
+    height: auto;
+}
+
 .me {
     width: 100%;
 }
@@ -115,6 +119,7 @@ nav a {
 
 .project-image, .project-description {
     width: 100%;
+    height: auto;
 }
 
 .project-image img {
