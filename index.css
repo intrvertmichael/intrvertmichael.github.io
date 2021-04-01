@@ -13,9 +13,15 @@ body {
 }
 
 .container {
+    padding-top: 35%;
     padding-bottom: 20px;
     max-width: 1200px;
     margin: auto;
+
+    background: url('./me.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:contain;
 }
 
 a {
@@ -174,5 +180,11 @@ nav a {
 
     .project-description {
         padding-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        padding-top: 400px;
     }
 }
