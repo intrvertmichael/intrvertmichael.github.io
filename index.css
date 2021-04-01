@@ -149,10 +149,12 @@ nav a {
 
 .project-description h3 {
     font-size: 2em;
+    font-weight: bold;
 }
 
 .project-description h4 {
     font-size: 0.8em;
+    line-height: 2.5em;
     font-style: italic;
 }
 
