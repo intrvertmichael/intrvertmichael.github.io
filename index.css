@@ -44,7 +44,7 @@ img {
 
 .intro, .projects {
     width: 85%;
-    max-width: 700px;
+    max-width: 600px;
     margin: auto;
 }
 
@@ -100,7 +100,7 @@ nav a {
 }
 
 .about {
-    background: #eae5de;
+    background: #fbf9f4;
     border-radius: 5px;
     padding: 10px 30px;
 }
