@@ -158,14 +158,17 @@ nav a {
     font-style: italic;
 }
 
-.project-description p {}
-
 .project-description a {
     display: block;
     text-decoration: none;
     padding: 5px 0px;
     box-sizing: border-box;
     width: fit-content;
+}
+
+.forward {
+    width: 100%;
+    text-align: center;
 }
 
 
