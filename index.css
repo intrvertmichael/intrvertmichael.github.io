@@ -119,7 +119,7 @@ nav a {
 .project {
     display: flex;
     flex-direction: row;
-    margin-bottom: 20px;
+    margin-bottom: 75px;
     height: fit-content;
 }
 
@@ -161,7 +161,7 @@ nav a {
 .project-description a {
     display: block;
     text-decoration: none;
-    padding: 5px 0px;
+    padding: 0px;
     box-sizing: border-box;
     width: fit-content;
 }
