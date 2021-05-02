@@ -119,6 +119,7 @@ nav a {
 .project {
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin-bottom: 75px;
     height: fit-content;
 }
